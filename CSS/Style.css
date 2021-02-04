@@ -1,7 +1,37 @@
 html{
     overflow-y: scroll;
 }
-.card{
+.flip-card {
+    width: 300px;
+    height: 220px;
+    perspective: 1000px;
+    margin:auto;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
     height: 300px;
     width: 220px;
     float: left;
@@ -11,7 +41,21 @@ html{
     background-image: url("http://st.depositphotos.com/1000401/2185/i/950/depositphotos_21850435-Old-parchment-paper-texture-with-ornate-design.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    transform: rotateY(180deg);
+    height: 300px;
+    width: 220px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 1);
+    background-image: url("http://st.depositphotos.com/1000401/2185/i/950/depositphotos_21850435-Old-parchment-paper-texture-with-ornate-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 .content img{
     width: 50px;
     height: 50px;
@@ -37,4 +81,38 @@ html{
     float: right;
     margin-right: 20px;
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+/*Card Styling End*/
+/*Nav Bar Styling*/
+.menu {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline;
+    background-color: rgb(255, 190, 136);
+    padding: 5px 10px;
+    margin: 0;
+}
+
+a:link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    color: #666666;
+}
+/*Nav Bar Styling end*/
+.resize_fit_center_LOGO {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
