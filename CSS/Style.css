@@ -1,8 +1,30 @@
 html{
     overflow-y: scroll;
+    font-family: Helvetica;
 }
 
 /*==========Flip Card CSS==========*/
+.column{
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.CardContainer{
+  padding: 0 16px;
+}
+.cardButton{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.cardButton:hover{
+  background-color: rgb(83, 83, 83);
+}
 .flip-card {
     width: 300px;
     height: 220px;
@@ -34,21 +56,19 @@ html{
   
   /* Style the front side*/
   .flip-card-front {
-    height: 300px;
+    height: 330px;
     width: 220px;
     float: left;
     margin: 20px;
     padding: 20px;
-    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 1);
-    background-image: url("http://st.depositphotos.com/1000401/2185/i/950/depositphotos_21850435-Old-parchment-paper-texture-with-ornate-design.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:white;
   }
   
   /* Style the back side */
   .flip-card-back {
     transform: rotateY(180deg);
-    height: 300px;
+    height: 330px;
     width: 220px;
     float: left;
     margin: 20px;
@@ -59,7 +79,8 @@ html{
     background-repeat: no-repeat;
   }
   /*==========Flip Card CSS End==========*/
-  /*Card Contents*/
+  /*==========Card Contents==========*/
+/*
 .content img{
     width: 50px;
     height: 50px;
@@ -86,8 +107,9 @@ html{
     margin-right: 20px;
     text-shadow: 3px 3px 5px rgb(255, 255, 255);
 }
-/*Card Contents End*/
-/*Nav Bar Styling*/
+*/
+/*==========Card Contents End==========*/
+/*==========Nav Bar Styling==========*/
 .menu {
     text-align: center;
     list-style-type: none;
@@ -103,6 +125,7 @@ html{
 
 a:link {
     color: white;
+    font-family: Helvetica;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -110,7 +133,7 @@ a:link {
 a:hover {
     color: #666666;
 }
-/*Nav Bar Styling end*/
+/*==========Nav Bar Styling end==========*/
 .resize_fit_center_LOGO {
     display: block;
     width: 500px;
