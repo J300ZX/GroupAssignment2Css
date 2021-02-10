@@ -91,6 +91,10 @@ body {
 .cardButton:hover{
   background-color: rgb(83, 83, 83);
 }
+.buttonLink{
+  text-decoration:none;
+  display: block;
+}
 .flip-card {
     width: 300px;
     height: 500px;
@@ -191,7 +195,7 @@ a:link {
 a:visited{
   color: white;
 }
-a:hover {
+.menu li a:hover {
     color: #666666;
 }
 /*==========Nav Bar Styling end==========*/
