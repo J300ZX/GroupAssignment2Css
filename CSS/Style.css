@@ -188,6 +188,9 @@ a:link {
     text-decoration: none;
     display: inline-block;
 }
+a:visited{
+  color: white;
+}
 a:hover {
     color: #666666;
 }
