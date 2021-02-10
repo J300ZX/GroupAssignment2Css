@@ -248,3 +248,29 @@ a:visited{
 }
 
 /*==========TYLER NOE PERSONAL PAGE END==========*/
+
+/*==========JAEDEN GREENE PERSONAL PAGE==========*/
+#GreenePage {
+  background: linear-gradient(80deg, #b474f0, #73f7f0);
+  background-size: 400% 400%;
+
+  -webkit-animation: GreeneAnimation 5s ease infinite;
+  -moz-animation: GreeneAnimation 5s ease infinite;
+  animation: GreeneAnimation 5s ease infinite;
+}
+
+@-webkit-keyframes GreeneAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@-moz-keyframes GreeneAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@keyframes GreeneAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
