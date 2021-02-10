@@ -1,7 +1,16 @@
+/*Using a separate .css file called style.css instead of inline styling or the style tag, 
+have each group member change ten different style properties throughout all your webpages 
+using CSS selectors (like h1, li, a, etc) for at least 5 different kinds of html tags that 
+occur in throughout your team website (set this up so that every html page links to the same 
+style.css page, don’t use inline styling or the <style> tag anywhere but in the style.html you did in the previous step).  
+Document these contributions in your WDD.*/
+
+/*Global changes here (Overwrite this using !important)*/
 html{
     overflow-y: scroll;
     font-family: Helvetica;
 }
+/*Global changes here*/
 /*Index Page Logo*/
 #HTMLHandyLogo{
   animation-name: fadeIn;
