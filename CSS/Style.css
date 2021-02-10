@@ -11,6 +11,34 @@ html{
     font-family: Helvetica;
 }
 /*Global changes here*/
+
+/*Background Gradient Animation*/
+body {
+  background: linear-gradient(80deg, #bce8bc, #ffddcc);
+  background-size: 400% 400%;
+
+  -webkit-animation: GradientAnimation 7s ease infinite;
+  -moz-animation: GradientAnimation 7s ease infinite;
+  animation: GradientAnimation 7s ease infinite;
+}
+
+@-webkit-keyframes GradientAnimation {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
+@-moz-keyframes GradientAnimation {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
+@keyframes GradientAnimation {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
+/*Background Gradient Animation*/
+
 /*Index Page Logo*/
 #HTMLHandyLogo{
   animation-name: fadeIn;
@@ -166,8 +194,8 @@ a:hover {
 /*==========Nav Bar Styling end==========*/
 .resize_fit_center_LOGO {
     display: block;
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 0%;
