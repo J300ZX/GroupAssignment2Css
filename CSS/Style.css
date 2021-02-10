@@ -2,15 +2,37 @@ html{
     overflow-y: scroll;
     font-family: Helvetica;
 }
+/*Index Page Logo*/
+#HTMLHandyLogo{
+  animation-name: fadeIn;
+  animation-duration: 5s;
+}
+/*Logo Animation*/
+@keyframes fadeIn{
+  0%{
+    opacity: 0.1;
+    transform: scale(0.1);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
 /*==========Flip Card CSS==========*/
+.row{
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
 .cardColumn{
   padding: 16px;
   float: left;
   margin: 16px;
+  flex: 1;
 }
 @media screen and (max-width: 650px){
-  .column{
+  .cardColumn{
     width: 100%;
     display: block;
   }
