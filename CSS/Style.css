@@ -201,3 +201,29 @@ a:hover {
     padding-top: 0%;
     padding-bottom: 0%;
 }
+
+/*==========TYLER NOE PERSONAL PAGE==========*/
+#NoePage {
+  background: linear-gradient(80deg, #991c1c, #0092c8);
+  background-size: 400% 400%;
+
+  -webkit-animation: NoeAnimation 7s ease infinite;
+  -moz-animation: NoeAnimation 7s ease infinite;
+  animation: NoeAnimation 7s ease infinite;
+}
+
+@-webkit-keyframes NoeAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@-moz-keyframes NoeAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@keyframes NoeAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
