@@ -196,6 +196,7 @@ a:visited{
 /*==========STYLE PAGE==========*/
 .styleHeader{
   background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   padding: 5px 0px;
   text-align: center;
@@ -203,6 +204,24 @@ a:visited{
 
   animation-name: fadeIn;
   animation-duration: 2s;
+}
+.styleContentDiv1{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  width: 1000px;
+  height: 500px;
+  min-width: 50%;
+  min-height: 50%;
+}
+.styleContentDiv1 p{
+  display: inline-block;
+  margin: 250px 100px;
+}
+.styleContentDiv1 img{
+   vertical-align: middle;
+   width: 50%;
+   height: 80%;
 }
 
 /*========STYLE PAGE END========*/
