@@ -44,7 +44,9 @@ body {
   animation-name: fadeIn;
   animation-duration: 5s;
 }
-/*Logo Animation*/
+/*Fade In Animation*/
+/*Feel free using this anywhere with anything, 
+just simply reference the animation name and set a duration for it*/
 @keyframes fadeIn{
   0%{
     opacity: 0.1;
@@ -56,7 +58,7 @@ body {
   }
 }
 
-/*==========Flip Card CSS==========*/
+/*==========Flip Card CSS (By Preston Valles with help of w3schools)==========*/
 .row{
   display: flex;
   align-content: center;
@@ -165,7 +167,7 @@ a.cardButton{
     display: inline;
     background-color: rgb(255, 190, 136);
     padding: 5px 10px;
-    margin: 0;
+    margin: 0px;
 }
 
 a:link {
@@ -191,7 +193,19 @@ a:visited{
     padding-top: 0%;
     padding-bottom: 0%;
 }
+/*==========STYLE PAGE==========*/
+.styleHeader{
+  background-color: #aae6aa;
+  margin: 50px auto;
+  padding: 5px 0px;
+  text-align: center;
+  width: 570px;
 
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+/*========STYLE PAGE END========*/
 /*==========TYLER NOE PERSONAL PAGE==========*/
 #NoePage {
   background: linear-gradient(80deg, #991c1c, #0092c8);
