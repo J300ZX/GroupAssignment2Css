@@ -282,7 +282,35 @@ a:visited{
 }
 
 /*==========TYLER NOE PERSONAL PAGE END==========*/
+/*==========TYLER MITCHELL PERSONAL PAGE=========*/
+#MitchellPage {
+  background: linear-gradient(300deg, #991c1c, #000000);
+  background-size: 400% 400%;
 
+  -webkit-animation: MitchellAnimation 7s ease infinite;
+  -moz-animation: MitchellAnimation 7s ease infinite;
+  animation: MitchellAnimation 7s ease infinite;
+}
+
+@-webkit-keyframes MitchellAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@-moz-keyframes MitchellAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+@keyframes MitchellAnimation {
+  0%{background-position:0% 59%}
+  50%{background-position:100% 42%}
+  100%{background-position:0% 59%}
+}
+   
+
+
+/*==========TYLER MITCHELL PERSONAL PAGE END=====*/
 /*==========JAEDEN GREENE PERSONAL PAGE==========*/
 #GreenePage {
   background: linear-gradient(80deg, #b474f0, #73f7f0);
