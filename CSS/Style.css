@@ -208,7 +208,7 @@ a:visited{
 .styleContentDiv1{
   background-color: #aae6aa;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: 50px auto;
   width: 1000px;
   height: 500px;
   min-width: 50%;
@@ -280,6 +280,9 @@ a:visited{
 }
 
 /*==========JAEDEN GREENE PERSONAL PAGE END==========*/
+/*==========PRESTON VALLES PERSONAL PAGE==========*/
+
+/*==========PRESTON VALLES PERSONAL PAGE END==========*/
 /*==========EASTER EGG CSS==========*/
 .sneakylink{
   text-decoration: none;
