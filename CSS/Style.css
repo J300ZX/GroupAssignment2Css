@@ -251,6 +251,36 @@ a:visited{
   100%{background-position:0% 59%}
 }
 
+.NoeStyleHeader{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 5px 0px;
+  text-align: center;
+  width: 570px;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+.NoeStyleContentDiv1{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  width: 1200px;
+  height: 550px;
+  min-width: 50%;
+  min-height: 50%;
+}
+.NoeStyleContentDiv1 p{
+  display: inline-block;
+  margin: 250px 100px;
+}
+.NoeStyleContentDiv1 img{
+   vertical-align: middle;
+   width: 50%;
+   height: 80%;
+}
+
 /*==========TYLER NOE PERSONAL PAGE END==========*/
 
 /*==========JAEDEN GREENE PERSONAL PAGE==========*/
