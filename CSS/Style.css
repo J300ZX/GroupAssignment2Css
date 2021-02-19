@@ -252,7 +252,7 @@ a:visited{
 }
 
 .NoeStyleHeader{
-  background-color: #666666;
+  background-color: #2b93b3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   padding: 5px 0px;
@@ -266,8 +266,9 @@ a:visited{
 .NoeStyleHeader h1{
   font-family: 'Courier New', Courier, monospace;
 }
+
 .NoeStyleContentDiv1{
-  background-color: #666666;
+  background-color: #2b93b3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 5px auto;
   width: 1200px;
@@ -275,16 +276,20 @@ a:visited{
   min-width: 50%;
   min-height: 50%;
 }
-.NoeStyleContentDiv1 p{
-  display: inline;
-  margin: auto;
+
+.NoeStyleContentDiv1 h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  padding-left: 10px;
 }
 
 .NoeStyleContentDiv1 p{
+  display: inline;
+  margin: auto;
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
   padding-left: 10px;
-  background-color: #740e0e;
+
 }
 
 .NoeStyleContentDiv1 img{
@@ -301,12 +306,32 @@ a:visited{
 
 #NoeList ol{
   font-family: 'Courier New', Courier, monospace;
-  background-color: #740e0e;
+
 }
 
 #NoeList li{
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
+}
+
+/*Noe's Custom Animation Below*/
+@keyframes customAnimNoe {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.CustomAnimNoe {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  animation-name: customAnimNoe;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;  
+  animation-iteration-count: infinite;
 }
 
 /*==========TYLER NOE PERSONAL PAGE END==========*/
