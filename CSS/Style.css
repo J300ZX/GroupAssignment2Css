@@ -252,7 +252,7 @@ a:visited{
 }
 
 .NoeStyleHeader{
-  background-color: #2369b9;
+  background-color: #666666;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   padding: 5px 0px;
@@ -267,11 +267,11 @@ a:visited{
   font-family: 'Courier New', Courier, monospace;
 }
 .NoeStyleContentDiv1{
-  background-color: #2369b9;
+  background-color: #666666;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 5px auto;
   width: 1200px;
-  height: 550px;
+  height: 650px;
   min-width: 50%;
   min-height: 50%;
 }
@@ -282,6 +282,9 @@ a:visited{
 
 .NoeStyleContentDiv1 p{
   font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  padding-left: 10px;
+  background-color: #740e0e;
 }
 
 .NoeStyleContentDiv1 img{
@@ -293,6 +296,17 @@ a:visited{
 #NoeList{
   display: inline;
   margin: auto;
+  
+}
+
+#NoeList ol{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #740e0e;
+}
+
+#NoeList li{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
 }
 
 /*==========TYLER NOE PERSONAL PAGE END==========*/
