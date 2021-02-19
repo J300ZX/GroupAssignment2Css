@@ -322,7 +322,36 @@ a:visited{
   100%{background-position:0% 59%}
 }
    
+.MitchellstyleHeader{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  padding: 5px 0px;
+  text-align: center;
+  width: 570px;
 
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.MitchellstyleHeader h1{
+  font-family: monospace;
+}
+
+.MitchellstyleContentDiv1 p{
+  font-family: 'Courier New', Courier, monospace;
+  display: inline;
+}
+
+.MitchellstyleContentDiv1{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  width: 1000px;
+  height: 500px;
+  min-width: 50%;
+  min-height: 50%;
+}
 
 /*==========TYLER MITCHELL PERSONAL PAGE END=====*/
 /*==========JAEDEN GREENE PERSONAL PAGE==========*/
