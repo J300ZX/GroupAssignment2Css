@@ -236,12 +236,6 @@ a:visited{
    height: 30%;
    margin: 0 25px;
 }
-.styleContentDiv1 img#DivImg3{
-  vertical-align: middle;
-   width: 50%;
-   height: 30%;
-   margin: 0 25px;
-}
 
 /*========STYLE PAGE END========*/
 /*==========TYLER NOE PERSONAL PAGE==========*/
@@ -517,14 +511,32 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 /*==========JAEDEN GREENE PERSONAL PAGE END==========*/
 /*==========PRESTON VALLES PERSONAL PAGE==========*/
 .styleContentDiv1 img#PrestonImg{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); 
-  height: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 50px;
+  margin-top: 50px;
+  vertical-align: middle;
+  height: 80%;
+  float:right;
 }
-.styleContentDiv1 p#PrestonDescription{
-  margin: 250px 100px;
-  display: inline-block;
+
+.styleContentDiv1 h1#PrestonHeader{
+  float: left;
+  padding: 0 105px;
+}
+.PrestonContent{
+  background-color: #aae6aa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  width: 1000px;
+  height: 500px;
+  min-width: 50%;
+  min-height: 50%;
+}
+.PrestonContent p{
   text-align: center;
+  margin: 0;
 }
+
 /*==========PRESTON VALLES PERSONAL PAGE END==========*/
 /*==========EASTER EGG CSS==========*/
 .sneakylink{
