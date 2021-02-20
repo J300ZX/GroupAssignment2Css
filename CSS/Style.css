@@ -426,7 +426,9 @@ a:visited{
   color: white;
   
 }
-
+#content_2  p{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 @keyframes bounce{
   0% {
