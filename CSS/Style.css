@@ -318,9 +318,9 @@ a:visited{
   margin: 200px 100px;
 }
 #NoeContainerRight{
-  
+  margin-top: 100px;
+  margin-right: 12px;
   float:right;
-  margin: 100px 10px;
 }
 
 #NoeList{
