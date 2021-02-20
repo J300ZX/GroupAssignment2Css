@@ -229,6 +229,12 @@ a:visited{
    height: 70%;
 }
 
+.styleContentDiv1 img#DivImg2{
+  vertical-align: middle;
+   width: 50%;
+   height: 30%;
+}
+
 /*========STYLE PAGE END========*/
 /*==========TYLER NOE PERSONAL PAGE==========*/
 #NoePage {
