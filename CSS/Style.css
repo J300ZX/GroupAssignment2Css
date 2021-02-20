@@ -299,13 +299,13 @@ a:visited{
    height: 80%;
 }
 #NoeContainerLeft{
-  display:inline-block;
+  
   float:left;
   text-align: center;
   margin: 200px 100px;
 }
 #NoeContainerRight{
-  display:inline-block;
+  
   float:right;
   margin: 100px 10px;
 }
